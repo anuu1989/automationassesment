@@ -1,0 +1,11 @@
+{
+
+  "default": {
+    "baseUrl": "https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/",
+    "mainbaseUrl": "http://localhost:8080",
+    "headlessMode": false,
+    "pageTimeout": "60000",
+    "featureFiles": "../features/**/**/*.feature",
+    "stepDefinitionsPath": "../features/support/step_definitions/**/**/*.js"
+  }
+}
