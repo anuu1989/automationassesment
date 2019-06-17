@@ -1,0 +1,23 @@
+{
+  "name": "automationassesment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^1.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuu1989/automationassesment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuu1989/automationassesment/issues"
+  },
+  "homepage": "https://github.com/anuu1989/automationassesment#readme"
+}
