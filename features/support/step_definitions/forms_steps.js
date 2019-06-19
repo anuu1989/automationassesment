@@ -56,7 +56,7 @@ inputValue.type(amount)
 })
 
 
-Given(/^tolal credit card limit as "([^"]*)?"$/, async (amount) => {
+Given(/^total credit card limit as "([^"]*)?"$/, async (amount) => {
     const inputValue =  await scope.page.$('input[aria-labelledby="q3q5"]')
 inputValue.click()
 inputValue.type(amount)
@@ -81,6 +81,13 @@ Given(/^Number of dependent as "([^"]*)?"$/, async (Val) => {
 Given(/^I click on button "([^"]*)?"$/, async (btnName) => {
 
     const buttonClick = await scope.page.click('button[class="btn btn--action btn--borrow__calculate"]')
+
+
+})
+
+Given(/^I click "([^"]*)?" button$/, async (btnName) => {
+
+    const buttonClick = await scope.page.click('button[class="start-over"]')
 
 
 })
